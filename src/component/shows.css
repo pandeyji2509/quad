@@ -1,0 +1,94 @@
+
+.parents-1{
+    display: inline-flex;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 10px 15px -3px rgba(146, 20, 20, 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    margin: 2rem 10px 2rem 2rem;
+    padding:2rem;
+    width: 27rem;
+    border-radius: 20px;
+    align-items: center; 
+    position: relative; 
+}
+@media screen and (max-width:580px) {
+    .parents-1{
+        margin:0rem;    
+    }
+}
+.expo{
+    float: left;
+}
+.parents-2{
+    margin-left: 2rem;
+    justify-content: center;
+}
+
+.parents-3{
+    font-weight: 700;
+    color: rgb(20 184 166);
+    
+}
+
+.parents-4{
+    font-weight: 350;
+    font-size: 0.75rem; /* 20px */
+    line-height: 1.25rem; /* 28px */
+}
+
+.parents-5{
+    color: rgb(55 65 81);
+}
+
+.parents-7{
+    display:flex;
+    margin: top 1rem;
+    align-items: center;
+    justify-content: center;
+}
+/* text-teal-500 bg-teal-100 font-bold m-2 p-2 rounded */
+.parents-8{
+    color: rgb(28, 110, 101);
+    background-color: rgb(204, 251, 241);
+    font-weight:700;
+    margin:0.5rem;
+    padding:0.5rem;
+    border-radius: 0.25rem; 
+}
+.click{
+    transition: all .5s;
+}
+
+/* CSS */
+.button-37 {
+  background-color: #14c4b5;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fdf6f6;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 20px;
+}
+
+.button-37:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-37 {
+    padding: 10px 30px;
+  }
+}
